@@ -1,4 +1,2 @@
 # RGB Color generator
-RGB color generator, with java script. you can copy color and generate color too also you can see generated color
-made by: nikanatenaze
-made in: 18.01.2024
+How to use: you can generate color with button generate, and you can copy another RGB color with copy button. of course this colors show on display and if you want this color you will copy in this text "This is your random RGB color: rgb(255, 255, 255)" started with rgb to the end. thank you for your time
