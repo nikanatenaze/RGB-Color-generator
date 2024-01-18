@@ -1,2 +1,2 @@
-# RGB Color generator
+# RGB Color generator, HOW TO USE?
 How to use: you can generate color with button generate, and you can copy another RGB color with copy button. of course this colors show on display and if you want this color you will copy in this text "This is your random RGB color: rgb(255, 255, 255)" started with rgb to the end. thank you for your time
