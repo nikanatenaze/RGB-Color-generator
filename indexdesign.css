@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-image {
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100vh;
+}
+
+.image {
+    position: absolute;
+    z-index: -9;
+}
+
+.page {
+    z-index: 100px;
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rgb-colors {
+    width: 60%;
+    height: 68%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.rgb-col-show {
+    background-image: linear-gradient(to left bottom, #c7bf04, #d8a200, #e58200, #ec5d10, #ec2e2e);
+    transition: 0.3s all ease;
+    width: 100%;
+    height: 90%;
+    border-top-right-radius: 19px;
+    border-top-left-radius: 19px;
+    border-bottom: 1px solid black;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
+.generate {
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 22px;
+    width: 250px;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s all ease;
+}
+
+.generate:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.391);
+    border: 4px solid black;
+}
+
+.button-text {
+    font-size: 18px;
+    margin-top: 50px;
+    color: white;
+}
+
+.text-info {
+    transition: 0.3s all ease;
+    font-size: 25px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.made {
+    position: absolute;
+    bottom: 10px;
+    color: rgb(96, 94, 94);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.nikanatenaze {
+    color: purple;
+    text-decoration: none;
+}
+
+.copy-button {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}
